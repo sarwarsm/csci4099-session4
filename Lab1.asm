@@ -24,7 +24,7 @@
 	li $v0, 4
 	la $a0, newline
 	syscall
-	
+	#Terminate the program
 	li $v0, 4
 	la $a0, semester
 	syscall
